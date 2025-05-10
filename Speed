@@ -4,7 +4,7 @@
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/Main%20Bypass.lua", true))()
 local SP = game:GetService("StarterPlayer")
-local CharScripts = SP:WaitForChild("StarterCharacterScripts",20)
+local CharScripts = SP:WaitForChild("StarterCharacterScripts",21)
 local player = game.Players.LocalPlayer
 local char = player.Character
 local findAndRemove = function(char)
